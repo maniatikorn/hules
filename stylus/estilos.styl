@@ -10,10 +10,12 @@ body
 	font-weight 300
 	
 h2
-	font-family Roboto
-	font-weight 700
 	color mavici
-	font-size 40px
+	font-family Roboto
+	font-size 35px
+	font-weight 700
+	margin 0 
+	padding 0
 	
 header 
 	-moz-background: linear-gradient(to right, mavici, blue-boy, mavici)
@@ -30,18 +32,41 @@ nav
 	display none
 
 section
-	display block
-	margin 0
-	padding 0 10px
 	box-sizing border-box
-	
+	display inline-block
+	margin 0
+	padding 15px 10px 
+
 	h2
 		text-align center
 
+.productos
+	text-align center
+	display block
+	
+	p 
+		text-align left
+		
+	ul 
+		margin 0 
+		padding 0
+		
+		li 
+			display inline-block
+			text-decoration none
+			
+			img 
+				width 150px
+				padding 0 
+				margin 0
+		
+
 .headerSlide
-	width 100%
 	margin 0
 	padding 0
+	width 100%
+	height 160px
+	background url('')
 	
 	img 
 		margin 0
@@ -56,15 +81,15 @@ section
 	border-radius 10px
 	box-sizing border-box
 	display inline-block
+	left 0
 	margin 5px
+	margin-left auto
+	margin-right auto
 	position absolute
+	right 0
 	text-align center
 	top 1px
 	width 225px
-	left 0
-	right 0
-	margin-left auto
-	margin-right auto
 	
 .logo img
 	width 200px
