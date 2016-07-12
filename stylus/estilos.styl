@@ -35,17 +35,45 @@ header
 
 nav
 	position fixed
-	background-color Light
+	/*background-color Light*/
+	background rgba(0,93,225,1)
 	width 100%
 	top 0
 	color blue-boy
+	text-align center
+	/*margin-left auto
+	margin-right auto
+	right 0
+	left 0*/
+	display none
 	
+	ul 
+		margin 0 
+		padding 0
+
 	ul li 
 		display inline-block
 		width 100%
+		text-decoration none
+		margin 5px 0
 		
 		a 
-			border 1px solid red
+			border 2px solid mavici
+			display inline-block
+			padding 10px
+			border-radius 10px
+			background-color Light
+			margin 10px
+			font-size 25px
+			font-weight 700
+		
+		a:hover
+			background-color mavici
+			color mavici
+			text-decoration none
+		
+		a:visited
+			color blue-boy
 
 p 
 	color mavici
@@ -60,6 +88,19 @@ section
 		text-align center
 	div 
 		padding 15px 15px
+
+.botonMenu
+	position fixed
+	z-index 10
+	top 10px
+	color blue-boy
+	font-size 35px
+	right 5px
+	display inline-block
+	background-color mavici
+	border-radius 5000px
+	border 0
+	padding 5px 10px
 
 .ilustracion
 	background url('../images/glases.jpg')
@@ -140,12 +181,13 @@ section
 	width 200px
 
 .productList a 
-	background-color mavici
+	background-color Light
 	color blue-boy
 	padding 10px
-	border-radius 5px
+	border-radius 10px
 	font-size 16px
 	margin 10px
+	border 2px solid mavici
 	
 .productList a:hover
 		background-color azul-intenso

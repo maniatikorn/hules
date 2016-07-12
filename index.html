@@ -7,6 +7,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/estilos.css" />
+	<link rel="stylesheet" type="text/css" href="css/flaticon.css" />
 	<link rel="icon" type="image/jpeg" href="images/logo.png" />
 </head>
 <body>
@@ -15,12 +16,15 @@
 	<div class="logo">
 		<img src="images/logoHupigsa.png">
 	</div>
-	<nav>
+	<a href="#inicio" onclick="mostrarMenu();">
+		<div class="flaticon-menu botonMenu"></div>
+	</a>
+	<nav id="menu1">
 		<ul class="menuList">
-			<li class="itemMenu"><a class="itemHref">¿Quienes somos?</a></li>
-			<li class="itemMenu"><a class="itemHref">Pripiedades de los productos</a></li>
-			<li class="itemMenu"><a class="itemHref">Contacto</a></li>
-			<li class="itemMenu"><a class="itemHref">Principales servicios</a></li>
+			<li class="itemMenu"><a href="#" class="itemHref">¿Quienes somos?</a></li>
+			<li class="itemMenu"><a href="#" class="itemHref">Propiedades de los productos</a></li>
+			<li class="itemMenu"><a href="#" class="itemHref">Contacto</a></li>
+			<li class="itemMenu"><a href="#" class="itemHref">Principales servicios</a></li>
 		</ul>
 	</nav>	
 	<div class="headerSlide">
@@ -116,4 +120,18 @@
 
 </footer>
 </body>
+<script type="text/javascript">
+	function mostrarMenu()
+	{
+		var nav = document.getElementById('menu1');
+		if (nav.style.display !== 'block')
+		{
+			document.getElementById('menu1').style.display = 'block';	
+		}
+		else
+		{
+			document.getElementById('menu1').style.display = 'none';
+		}
+	}
+</script>
 </html>
