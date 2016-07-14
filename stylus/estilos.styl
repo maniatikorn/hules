@@ -23,9 +23,9 @@ h2
 	padding 0
 	
 header 
-	-moz-background: linear-gradient(to right, mavici, blue-boy, mavici)
-	-webkit-background: linear-gradient(to right, mavici, blue-boy, mavici)
-	background: linear-gradient(to right, mavici, blue-boy, mavici)
+	-moz-background: linear-gradient(to right, Light, blue-boy, Light)
+	-webkit-background: linear-gradient(to right, Light, blue-boy, Light)
+	background: linear-gradient(to right, Light, blue-boy, Light)
 	box-sizing: border-box
 	display block
 	padding 55px 0 0 0
@@ -39,6 +39,7 @@ nav
 	background rgba(0,93,225,1)
 	width 100%
 	top 0
+	padding 0
 	color blue-boy
 	text-align center
 	/*margin-left auto
@@ -55,17 +56,19 @@ nav
 		display inline-block
 		width 100%
 		text-decoration none
-		margin 5px 0
+		margin 0 0
+		padding 0
 		
 		a 
-			border 2px solid mavici
+			/*border 2px solid mavici*/
 			display inline-block
-			padding 10px
-			border-radius 10px
+			padding 24px 15px
+			/*border-radius 10px*/
 			background-color Light
-			margin 10px
+			margin 0
 			font-size 25px
-			font-weight 700
+			font-weight 300
+			text-decoration none
 		
 		a:hover
 			background-color mavici
@@ -95,7 +98,7 @@ section
 	top 10px
 	color blue-boy
 	font-size 25	px
-	right 1px
+	right 10px
 	display inline-block
 	background rgba(0,93,225,.6)
 	/*background-color mavici*/
@@ -193,3 +196,66 @@ section
 .productList a:hover
 		background-color azul-intenso
 		color blue-boy
+
+@media screen and (min-width: 479px)
+
+	.headerSlide
+		height 250px
+
+@media screen and (min-width: 639px)		
+	
+	.headerSlide
+		height 300px
+
+@media screen and (min-width: 767px)
+	header
+		padding 0px
+		text-align left
+		background-color mavici
+
+	nav
+		display inline-block
+		position relative
+		background rgba(0,93,225,.6)
+		margin 65px 0 0 0
+		
+		ul li
+			width auto			
+
+		ul li a 
+			font-size 16px
+			background-color rgba(0,0,0,0)
+			border 0px
+
+	.botonMenu
+		display none
+		
+	.headerSlide
+		height 350px
+		display inline-block
+	
+	.logo
+		z-index 11
+		
+@media screen and (min-width: 979px)
+
+	nav
+		margin 15px 0 0 0
+		height 70px
+		position fixed
+		text-align right
+	
+	.logo
+		position fixed
+		margin 0 
+		padding 0
+		top 5px
+		left 15px
+		width 250px
+		
+		img
+			width 225px
+			
+	.slide
+		margin 0
+		padding 0
