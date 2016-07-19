@@ -23,7 +23,7 @@ h2
 	color mavici
 	font-family Roboto
 	font-size 35px
-	font-weight 700
+	font-weight 300
 	margin 0 
 	padding 0
 	
@@ -153,7 +153,7 @@ section
 	h2
 		color blue-boy
 
-.productos
+.productos, .productos2 
 	text-align center
 	display block
 	
@@ -241,9 +241,12 @@ section
 		height 300px
 	
 	.item-footer
-		display inline-block
+		/*display inline-block*/
 
 @media screen and (min-width: 767px)
+	footer
+		padding 30px 0 0 0
+		
 	header
 		padding 0px
 		text-align left
@@ -265,13 +268,23 @@ section
 
 	.botonMenu
 		display none
-		
+	
+	.formulario
+		display inline-block
+
 	.headerSlide
 		height 350px
 		display inline-block
 	
 	.logo
 		z-index 11
+	
+	.item-footer
+		display inline-block
+		vertical-align top
+		margin 10px 15px
+		border-left 3px solid blue-boy
+		padding 0 0 0 5px
 		
 @media screen and (min-width: 979px)
 
@@ -280,7 +293,9 @@ section
 		height 70px
 		position fixed
 		text-align right
-	
+	.headerSlide
+		height 600px
+		
 	.logo
 		position fixed
 		margin 0 
@@ -291,6 +306,17 @@ section
 		
 		img
 			width 225px
+	
+	.productos, .productos2		
+		box-sizing border-box
+		display inline-block
+		vertical-align top
+	
+	.productos
+		width 40%
+		
+	.productos2
+		width 59%
 			
 	.slide
 		margin 0
