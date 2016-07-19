@@ -12,7 +12,7 @@ body
 footer
 	background-color mavici
 	color blue-boy
-	display inline-block
+	display block
 	padding 20px
 	box-sizing border-box
 	
@@ -37,6 +37,12 @@ header
 	position relative
 	text-align center
 	width 100%
+
+input 
+	display block
+	width 98%
+	border-radius 5px
+	border 1px solid Light
 
 nav
 	position fixed
@@ -112,6 +118,11 @@ section
 	border 0
 	padding 5px 10px
 
+.icon-footer
+	text-align left
+	display inline-block
+	vertical-align top
+
 .ilustracion
 	background url('../images/glases.jpg')
 	height 300px
@@ -121,6 +132,15 @@ section
 	background url('../images/factory.jpg')
 	height 300px
 	background-size cover
+
+.item-footer
+	display block
+	width 250px
+	margin 0 auto
+	p
+		display inline-block
+		width 220px
+		margin 0 0 10px 10px
 
 .divImpar
 	background-color mavici
@@ -212,6 +232,9 @@ section
 	
 	.headerSlide
 		height 300px
+	
+	.item-footer
+		display inline-block
 
 @media screen and (min-width: 767px)
 	header

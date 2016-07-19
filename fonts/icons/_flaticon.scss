@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 16/07/2016 23:13
+    Creation date: 18/07/2016 19:35
     */
 
     @font-face {
@@ -38,12 +38,20 @@
 
     .flaticon-agenda:before { content: "\f100"; }
 .flaticon-close-envelope:before { content: "\f101"; }
-.flaticon-facebook-logo:before { content: "\f102"; }
-.flaticon-phone-receiver:before { content: "\f103"; }
-.flaticon-twitter-logo:before { content: "\f104"; }
+.flaticon-contact-book:before { content: "\f102"; }
+.flaticon-facebook-logo:before { content: "\f103"; }
+.flaticon-menu-button-of-three-horizontal-lines:before { content: "\f104"; }
+.flaticon-message:before { content: "\f105"; }
+.flaticon-phone-receiver:before { content: "\f106"; }
+.flaticon-ring-phone-auricular-interface-symbol-with-lines-of-the-sound:before { content: "\f107"; }
+.flaticon-twitter-logo:before { content: "\f108"; }
     
     $font-Flaticon-agenda: "\f100";
     $font-Flaticon-close-envelope: "\f101";
-    $font-Flaticon-facebook-logo: "\f102";
-    $font-Flaticon-phone-receiver: "\f103";
-    $font-Flaticon-twitter-logo: "\f104";
+    $font-Flaticon-contact-book: "\f102";
+    $font-Flaticon-facebook-logo: "\f103";
+    $font-Flaticon-menu-button-of-three-horizontal-lines: "\f104";
+    $font-Flaticon-message: "\f105";
+    $font-Flaticon-phone-receiver: "\f106";
+    $font-Flaticon-ring-phone-auricular-interface-symbol-with-lines-of-the-sound: "\f107";
+    $font-Flaticon-twitter-logo: "\f108";
