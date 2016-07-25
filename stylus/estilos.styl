@@ -182,6 +182,7 @@ section
 	height 200px
 	background url('../images/slide/slideImage2.jpg')
 	background-size cover
+	overflow hidden
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -189,6 +190,16 @@ section
 	img 
 		margin 0
 		padding 0
+		width 100%
+	
+	ul 
+		padding 0
+		display flex
+		width 400%
+		animation deslizar 20s infinite alternate ease
+	
+	li
+		list-style none
 		width 100%
 
 .menu
@@ -344,3 +355,24 @@ section
 	.ilustracion2
 		width 50%
 		box-sizing border-box
+
+@keyframes deslizar
+	0% 
+		margin-left 0
+	20% 
+		margin-left 0
+		
+	25% 
+		margin-left -100%
+	45% 
+		margin-left -100%
+	
+	50% 
+		margin-left -200%
+	70% 
+		margin-left -200%
+	
+	75% 
+		margin-left -300%
+	100% 
+		margin-left -300%
