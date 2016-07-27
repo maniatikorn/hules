@@ -60,6 +60,7 @@ nav
 	right 0
 	left 0*/
 	display none
+	z-index 9
 	
 	ul 
 		margin 0 
@@ -126,14 +127,42 @@ section
 	vertical-align top
 
 .ilustracion
-	background url('../images/glases.jpg')
+	background url('../images/factory.jpg')
 	height 300px
 	background-size cover
 
 .ilustracion2
-	background url('../images/factory.jpg')
+	background url('../images/glases.jpg')
 	height 300px
 	background-size cover
+
+.item-caja
+	width 200px
+	height 200px
+	padding 0
+	margin 15px
+	position relative
+	transition padding 1s ease
+	&:hover
+		p 
+			padding 30px 5px		
+	
+	img 
+		width 200px
+		margin 0
+		padding 0
+	
+	p 
+		background rgba(24,116,255, .7)
+		width 100%
+		padding 5px
+		margin 0
+		box-sizing border-box
+		color blue-boy
+		font-weight 400
+		position absolute
+		z-index 3
+		bottom 1px
 
 .item-footer
 	display block
@@ -169,10 +198,10 @@ section
 			text-decoration none
 			margin 0 0 5px 0
 			
-			img 
-				width 150px
+			/*img 
+				width 200px
 				padding 5px
-				margin 5px
+				margin 5px*/
 		
 
 .headerSlide
@@ -224,18 +253,18 @@ section
 .logo img
 	width 175px
 
-.productList a 
+/*.productList a 
 	background-color Light
 	color blue-boy
 	padding 10px
 	border-radius 10px
 	font-size 16px
 	margin 10px
-	border 2px solid mavici
+	border 2px solid mavici*/
 	
-.productList a:hover
+/*.productList a:hover
 		background-color azul-intenso
-		color blue-boy
+		color blue-boy*/
 
 .propiedades
 	background-color blue-boy
@@ -273,7 +302,7 @@ section
 	nav
 		display inline-block
 		position relative
-		background rgba(0,93,225,.6)
+		background rgba(0,93,225,.8)
 		margin 65px 0 0 0
 		
 		ul li
@@ -295,7 +324,7 @@ section
 		display inline-block
 	
 	.logo
-		z-index 11
+		z-index 20
 	
 	.item-footer
 		display inline-block
@@ -331,10 +360,10 @@ section
 		vertical-align top
 	
 	.productos
-		width 40%
+		width 100%
 		
 	.productos2
-		width 59%
+		width 100%
 			
 	.slide
 		margin 0
