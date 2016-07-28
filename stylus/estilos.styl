@@ -181,7 +181,9 @@ section
 	
 	h2
 		color blue-boy
-
+.marginTop
+	display none
+	
 .mensaje
 	position absolute
 	bottom 30px	
@@ -213,7 +215,9 @@ section
 				width 200px
 				padding 5px
 				margin 5px*/
-		
+
+.propiedades img 
+	width 100%		
 
 .headerSlide
 	margin 0
@@ -277,11 +281,11 @@ section
 		background-color azul-intenso
 		color blue-boy*/
 
-.propiedades
+/*.propiedades
 	background-color blue-boy
 	width 100%
 	display block
-	border 1px solid red
+	border 1px solid red*/
 
 .redButton
 	border 1px solid black
@@ -292,6 +296,15 @@ section
 
 	.headerSlide
 		height 250px
+	
+	.propiedades
+		text-align center
+		
+		p 
+			text-align left
+			
+		img 
+			width 200px
 
 @media screen and (min-width: 639px)		
 	
@@ -365,8 +378,26 @@ section
 		img
 			width 225px
 	
+	.marginTop
+		height 110px
+		padding 0
+		margin 0
+		display block
+		
 	.mensaje p 
 		font-size 40px
+	
+	.propiedades		
+		p 
+			display inline-block
+			width 40%
+		
+		img 
+			display inline-block
+			width 150px
+			margin 5px
+			top 20px
+		
 	
 	.productos, .productos2		
 		box-sizing border-box
