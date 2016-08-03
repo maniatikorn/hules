@@ -79,10 +79,12 @@ nav
 			padding 24px 15px
 			/*border-radius 10px*/
 			background-color Light
-			margin 0
+			margin 0 5px
 			font-size 25px
 			font-weight 300
 			text-decoration none
+			border 1px solid blue-boy
+			border-radius 10px
 		
 		a:hover
 			background-color mavici
@@ -189,6 +191,7 @@ section
 	bottom 30px	
 	right 30px
 	background rgba(24,116,255,.5)
+	border-radius 15px
 	
 	p 
 		font-size 20px
@@ -240,8 +243,8 @@ section
 		padding 0
 		margin 0
 		display flex
-		width 400%
-		animation deslizar 20s infinite alternate ease
+		width 700%
+		animation deslizar 35s infinite alternate ease
 	
 	li
 		list-style none
@@ -335,7 +338,7 @@ section
 		ul li a 
 			font-size 16px
 			background-color rgba(0,0,0,0)
-			border 0px
+			/*border 0px*/
 
 	.botonMenu
 		display none
@@ -349,6 +352,7 @@ section
 	
 	.logo
 		z-index 20
+		box-shadow 5px 5px azul-intenso
 	
 	.item-footer
 		display inline-block
@@ -440,18 +444,28 @@ section
 @keyframes deslizar
 	0% 
 		margin-left 0
-	20% 
+	10% 
 		margin-left 0
 		
+	15% 
+		margin-left -100%
 	25% 
 		margin-left -100%
-	45% 
-		margin-left -100%
 	
-	50% 
+	30% 
 		margin-left -200%
+	40% 
+		margin-left -200%
+	
+	45% 
+		margin-left -300%
+	55% 
+		margin-left -300%
+	
+	60% 
+		margin-left -300%
 	70% 
-		margin-left -200%
+		margin-left -300%
 	
 	75% 
 		margin-left -300%
