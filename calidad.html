@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width maximum-scale=1" />
+	<title>Hupigsa - Hules para la industria en general.</title>	
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css" />
+	<link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+	<link rel="icon" type="image/jpeg" href="images/logo.png" />
+</head>
+<body>
+
+<header>	
+	<div class="logo">
+		<img src="images/logoHupigsa.png">
+	</div>
+	<a href="#inicio" onclick="mostrarMenu();">
+		<div class="flaticon-menu-button-of-three-horizontal-lines botonMenu"></div>
+	</a>
+	<nav id="menu1">
+		<ul class="menuList">
+			<li class="itemMenu"><a href="index.html" class="itemHref">Inicio</a></li>
+			<li class="itemMenu"><a href="calidad.html" class="itemHref">Calidad</a></li>
+			<li class="itemMenu"><a href="propiedades.html" class="itemHref">Propiedades de los productos</a></li>
+			<li class="itemMenu"><a href="cotizaciones.html" class="redButton itemHref">Cotizaciones</a></li>
+		</ul>
+	</nav>	
+	<div class="headerSlide">
+		<ul>
+			<li><img src="images/slide/image1.jpg"></li>
+			<li><img src="images/slide/image2.jpg"></li>
+			<li><img src="images/slide/image3.jpg"></li>
+			<li><img src="images/slide/image4.jpg"></li>
+			<li><img src="images/slide/image5.jpg"></li>
+			<li><img src="images/slide/image6.jpg"></li>
+			<li><img src="images/slide/image7.jpg"></li>
+		</ul>
+	</div>
+	<div class="mensaje"><p>Hules para la industria</p></div>	
+</header>
+
+<section class="contentSection">
+
+</section>
+
+<footer>
+
+	<div class="item-footer">
+		<div class="formulario">
+		<div class="flaticon-agenda icon-footer"></div>
+		<p>Contacto</p>
+			<form>
+				<input type="text" name="" placeholder="Nombre" required>
+				<input type="email" name="" placeholder="@ Mail" required>
+				<input type="tel" name="" placeholder="Teléfono">
+				<input type="text" name="" placeholder="Breve descripción" required>
+
+				<input type="submit" name="Enviar" class="redButton">
+
+			</form>
+
+		</div>
+	</div>
+	<div class="item-footer">
+		<div class="flaticon-contact-book icon-footer"></div>
+		<p>
+			Domicilio:<br> Calle 5 Manzana 24 Lote 10-1
+			Fraccionamiento Lomas de Cartagena Tultitlan México
+			Cp. 54958.
+		</p>
+	</div>
+
+	<div class="item-footer">
+		<div class="flaticon-phone-receiver icon-footer"></div>
+		<p>
+			49-85-78-08<br>
+			I.D. 92*10*30558
+		</p>
+	</div>
+
+	<div class="item-footer">
+		<div class="flaticon-close-envelope icon-footer"></div>
+		<p>
+			hupigsa_hules1@hotmail.com
+		</p>
+	</div>
+
+	
+
+</footer>
+</body>
+<script type="text/javascript">
+	function mostrarMenu()
+	{
+		var nav = document.getElementById('menu1');
+		if (nav.style.display !== 'block')
+		{
+			document.getElementById('menu1').style.display = 'block';	
+		}
+		else
+		{
+			document.getElementById('menu1').style.display = 'none';
+		}
+	}
+</script>
+</html>
