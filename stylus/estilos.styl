@@ -49,7 +49,7 @@ input
 	border-radius 5px
 	border 1px solid Light
 	margin 0 0 10px 0
-	padding 5px
+	padding 12px 5px
 
 nav
 	position fixed
@@ -90,6 +90,7 @@ nav
 			text-decoration none
 			border 1px solid blue-boy
 			border-radius 10px
+			color blue-boy
 		
 		a:hover
 			background-color mavici
@@ -133,11 +134,15 @@ section
 	padding 5px 10px
 
 .calidad
-	display block
+	text-align center
+	display inline-block	
 	img
 		width 200px
 		margin 0 auto
-
+		
+.calidad p
+	text-align left
+	 	
 .icon-footer
 	text-align left
 	display inline-block
@@ -204,6 +209,8 @@ section
 	
 	h2
 		color blue-boy
+.mapa
+	width 100%
 .marginTop
 	display none
 	
@@ -290,6 +297,8 @@ section
 	text-align center
 	top 1px
 	width 200px
+	border 1px solid azul-intenso
+	box-shadow 5px 5px 10px gray
 	
 .logo img
 	width 175px
@@ -302,13 +311,6 @@ section
 
 @media screen and (min-width: 479px)
 	
-	.calidad
-		display inline-block
-			img
-				/*width 200px*/
-				float left
-				margin 10px
-
 	.headerSlide
 		height 250px
 	
@@ -322,10 +324,18 @@ section
 			width 200px
 		
 	.redButton
-		margin 0 5px 0 0
+		/*margin 0 0 0 0*/
 
 @media screen and (min-width: 639px)		
 	
+	.calidad
+		text-align left
+		display inline-block
+		
+		img
+			float left
+			margin 15px
+
 	.headerSlide
 		height 300px
 	
@@ -341,11 +351,6 @@ section
 		text-align left
 		background-color mavici
 	
-	input
-		width 50%
-		margin 0 auto 15px auto
-		font-size 25px
-
 	nav
 		display inline-block
 		position relative
@@ -387,6 +392,15 @@ section
 		/*height 70px*/
 		position fixed
 		text-align right
+		
+	.calidad
+		padding 0 100px
+	
+	.cotizaciones
+		input
+			width 50%
+			margin 0 auto 15px auto
+			font-size 25px
 		
 	.headerSlide
 		height 600px
